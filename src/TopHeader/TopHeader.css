@@ -1,0 +1,22 @@
+.tophead{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.topicon{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+}
+.tophead p{
+    color: white;
+    font-size: 13px; 
+    padding-left: 14px;
+}
+#headIcon{
+    padding-right: 50%;
+    font-size: 20px;
+    color: white;
+}
+.headIcon{
+    color: white;
+}

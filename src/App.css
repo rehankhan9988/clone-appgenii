@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+/* tophead css */
+.mainhead{
+    background-color:#f67c78 ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Plan css part */
+.plan-card{
+text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* testimonial */
+.testimonial{
+    padding-top: 60px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* footercss */
+#footer-Con{
+    background-color: #0e1b1f;
+    padding: 6%;
 }
-
-.App-link {
-  color: #61dafb;
+/* Service css */
+.service-head{
+    padding-top: 5%;
+    min-width: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar css */
+.navbar{
+    min-width: 500px;
+    background-image: url("./assets/image -back.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* copy footer */
+#copyfooter{
+    min-width: 500px;
 }

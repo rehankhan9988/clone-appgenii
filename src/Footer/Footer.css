@@ -1,0 +1,32 @@
+.footer-h3{
+    color: white;
+}
+.footer-li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+.footer-li:hover{
+  color: #f55f8d;
+}
+.footer-border{
+    border-bottom: 4px solid white;
+    width: 50px;
+}
+#img{
+    color: white;
+}
+.li-item{
+    padding-top: 16%;
+}
+#icon{color: white;
+  
+}
+@media (max-width: 518px) { 
+    #footer{
+       text-align: center;
+    }
+    .footer-border{
+       margin-left: 39%;
+    }
+  }

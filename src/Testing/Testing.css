@@ -1,0 +1,60 @@
+.testing-card{
+    width: 80%;
+    padding: 4%;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.testing-left{
+    padding-top: 6%;
+}
+.testing-card:hover{
+   color: white;
+    background: rgb(246,105,134);
+background: linear-gradient(86deg, rgba(246,105,134,1) 0%, rgba(247,139,111,1) 35%, rgba(248,169,90,1) 100%);
+}
+.testinghead{
+    padding-top: 6%;
+}
+.testing-desc{
+    padding-top: 2%; 
+    color: #878787;
+    font-size: 17px;
+    padding-left:7% ;
+    /* padding: 6%; */
+}
+.testing-card:hover .testing-desc{
+    color: white;
+}
+.testing-title{
+    padding-left:7% ;  
+}
+#testing-icon{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 653px) { 
+    .testing-left{
+        width: 80%;
+        text-align: center;
+        margin-left: 52px;
+        padding-top: 9%;
+    }
+    .testing-right{
+        width: 80%;
+        text-align: center;
+        margin-left: 52px;
+        padding-top: 9%;
+    }
+}
+@media (max-width: 653px) { 
+    #card-center{
+    margin-right: auto;
+    }
+    .testing-card{
+        width: 90%;
+    }
+    #card-top{
+        margin-left: 5%;
+    }
+}
+

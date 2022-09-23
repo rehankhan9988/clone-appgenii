@@ -1,0 +1,57 @@
+.port-card{
+    padding-top: 1%;
+}
+.portimg{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+} 
+.port-ul{
+    padding-top: 4%;
+    display: inline-block;
+}
+.port-li{
+    display: inline-block;
+    padding-left: 30px;
+    cursor: context-menu; 
+    font-size: 17px;
+}
+.port-li:hover{
+    color:#f55f8d ; 
+}
+.portflio{
+    padding-top: 6%;
+}
+@media (max-width: 693px) { 
+    .portfolio-ul{
+  margin-right: 20%;
+    }
+}
+@media (max-width: 971px) { 
+    .port-li{
+        padding-top: 5%;
+        font-size: 16px;
+
+    }
+}
+@media (max-width: 568px) {  
+    .title{
+        padding-top: 13%;
+    }
+   
+}
+@media (max-width: 552px) { 
+    #subtitle{
+ margin-left: 34%;
+    }
+    
+}
+@media (max-width: 612px) { 
+    .portimg{
+        width: 70%;
+        height: 100%;
+        padding: 1%;
+        margin-left: 18%;
+    } 
+    
+}

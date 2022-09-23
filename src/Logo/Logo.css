@@ -1,0 +1,19 @@
+.logo-img{
+    background-color: #f55f8d;
+}
+.logo-img:hover{
+    background-color: #c8174c;
+}
+.logo-container{
+    padding-top: 7%;
+}
+@media (max-width: 569px) { 
+    .logo-img{
+        margin-left:20%;
+    }
+  }
+  @media (max-width: 303px) { 
+    .logo-img{
+        margin-left:40%;
+    }
+  }
