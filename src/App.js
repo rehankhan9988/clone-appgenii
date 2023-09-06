@@ -16,9 +16,84 @@ import TopHeader from "./TopHeader/TopHeader";
 import Navbar from "./Navbar/Navbar";
 import Quote from "./Quote/Quote";
 function App() {
+  const sections = [
+    {
+      id: 1,
+      className: "mainhead",
+      component: <TopHeader />,
+    },
+    {
+      id: 2,
+      className: "navbar",
+      component: (
+        <div>
+          <Navbar />
+          <Quote />
+        </div>
+      ),
+    },
+    {
+      id: 3,
+      className: "service-head",
+      component: <Service />,
+    },
+    {
+      id: 4,
+      className: "service-head",
+      component: <About />,
+    },
+    {
+      id: 5,
+      className: "service-head",
+      component: <Testing />,
+    },
+    {
+      id: 6,
+      className: "container service-head",
+      component: <Portfolio />,
+    },
+    {
+      id: 7,
+      className: "container plan-card service-head pt-3",
+      component: <Plans />,
+    },
+    {
+      id: 8,
+      className: "testimonial service-head",
+      component: <Testimonial />,
+    },
+    {
+      id: 9,
+      className: "service-head",
+      component: <Blog />,
+    },
+    {
+      id: 10,
+      className: "service-head",
+      component: <Logo />,
+    },
+    {
+      id: 11,
+      className: "service-head",
+      style: { paddingTop: "6%" },
+      component: <InputCard />,
+    },
+    {
+      id: 12,
+      className: "service-head",
+      id: "footer-Con",
+      component: <Footer />,
+    },
+    {
+      id: 13,
+      id: "copyfooter",
+      component: <CopyFooter />,
+    },
+  ];
+
   return (
     <div>
-      <div className='mainhead'>
+      {/* <div className='mainhead'>
         <TopHeader />
       </div>
       <div className='navbar'>
@@ -57,7 +132,17 @@ function App() {
       </div>
       <div id='copyfooter'>
         <CopyFooter />
-      </div>
+      </div> */}
+      {sections.map((section) => (
+        <div
+          key={section.id}
+          className={section.className}
+          style={section.style}
+          id={section.id}
+        >
+          {section.component}
+        </div>
+      ))}
     </div>
   );
 }
